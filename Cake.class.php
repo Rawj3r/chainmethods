@@ -2,7 +2,7 @@
 
 /**
  * Created by IntelliJ IDEA.
- * User: empirestate
+ * User: rogernkosi
  * Date: 3/12/16
  * Time: 11:13 PM
  */
@@ -30,7 +30,7 @@ class Cake
 }
 
 $cupcake = new Cake();
-echo  "<pre>";
+    echo  "<pre>";
 $cupcake->Nuts('10')
     ->Frosting('chocolate')
     ->Sprinkels('200');
